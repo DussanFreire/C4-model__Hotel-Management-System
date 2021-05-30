@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "j0dr1P4ALq+lVkom3O9G/PWRujq9kobPCZ0fS71/WR9I8Zw1z+BnHJDOvl6XXtpK9Jd+l2B5kbtAP3hqZQHi3w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pablo.sangueza\\Documents\\GitProjects\\ThreeLayerModel\\ThreeLayerModel.BuisnessLogic\\ThreeLayerModel.BuisnessLogic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

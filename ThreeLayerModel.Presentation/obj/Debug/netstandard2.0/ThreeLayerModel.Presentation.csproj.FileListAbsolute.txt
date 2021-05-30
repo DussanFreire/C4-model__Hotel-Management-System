@@ -1,0 +1,9 @@
+C:\Users\pablo.sangueza\Documents\GitProjects\ThreeLayerModel\ThreeLayerModel.Presentation\bin\Debug\netstandard2.0\ThreeLayerModel.Presentation.deps.json
+C:\Users\pablo.sangueza\Documents\GitProjects\ThreeLayerModel\ThreeLayerModel.Presentation\bin\Debug\netstandard2.0\ThreeLayerModel.Presentation.dll
+C:\Users\pablo.sangueza\Documents\GitProjects\ThreeLayerModel\ThreeLayerModel.Presentation\bin\Debug\netstandard2.0\ThreeLayerModel.Presentation.pdb
+C:\Users\pablo.sangueza\Documents\GitProjects\ThreeLayerModel\ThreeLayerModel.Presentation\obj\Debug\netstandard2.0\ThreeLayerModel.Presentation.csprojAssemblyReference.cache
+C:\Users\pablo.sangueza\Documents\GitProjects\ThreeLayerModel\ThreeLayerModel.Presentation\obj\Debug\netstandard2.0\ThreeLayerModel.Presentation.csproj.CoreCompileInputs.cache
+C:\Users\pablo.sangueza\Documents\GitProjects\ThreeLayerModel\ThreeLayerModel.Presentation\obj\Debug\netstandard2.0\ThreeLayerModel.Presentation.AssemblyInfoInputs.cache
+C:\Users\pablo.sangueza\Documents\GitProjects\ThreeLayerModel\ThreeLayerModel.Presentation\obj\Debug\netstandard2.0\ThreeLayerModel.Presentation.AssemblyInfo.cs
+C:\Users\pablo.sangueza\Documents\GitProjects\ThreeLayerModel\ThreeLayerModel.Presentation\obj\Debug\netstandard2.0\ThreeLayerModel.Presentation.dll
+C:\Users\pablo.sangueza\Documents\GitProjects\ThreeLayerModel\ThreeLayerModel.Presentation\obj\Debug\netstandard2.0\ThreeLayerModel.Presentation.pdb
