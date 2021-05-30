@@ -31,6 +31,7 @@ Controladores:
 <br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/Page-5.jpg" /> <br>
 Servicios:
 * Servicio de huespedes:
+  *   En esta seccion se usaron interfaces para que se pueda usar el servicio siguiendo el "liskov principle" y ademas permitiendo hacer extenciones en vez de modificaciones 
 <br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/Page-10.jpg" /> <br>
 * Servicio de hospedaje:
 <br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/Page-9.jpg" /> <br>
@@ -38,5 +39,6 @@ Servicios:
 <br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/Page-10.jpg" /> <br>
 ### Capa de logica de acceso a datos:
 * Repositorio:
+  * Pra el repositorio fue utilizado un singleton para que la base de datos sea la misma para todos los componentes  
 <br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/page-7.jpg" /> <br>
 * El nivel 4 también esta implementado de una manera no funciona alto nivel a través de código dentro de este repositorio 
