@@ -27,7 +27,7 @@ Controladores:
 * Controlador de huespedes: 
 <br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/Page-4.jpg" /> <br>
 * Controlador de hospedaje: 
-<br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/Page-6.jpg" /> <br>
+<br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/page-6.jpg" /> <br>
 * Controlador de habitacion:
 <br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/Page-5.jpg" /> <br>
 Servicios:
