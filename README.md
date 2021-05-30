@@ -15,14 +15,14 @@ Al ser un sistema monolítico este diagrama solo contiene la aplicación web y l
 ## Nivel 3, Contenedores: 
 En esta sección se amplió la aplicación web, se utilizo un modelo monolítico basado en 3 capas para representar esta sección. 
 <br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/modelo%203%20capas.jpg" /> <br>
-Diagrama:
-<br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/Nivel-3.jpg" /> <br>
-En la siguiente imagen se puede observar el nivel 3 pero con las secciones de las 3 capas distinguidas por un color. <img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/detalle-Nivel%203.jpg" /> <br>
+* Diagrama:
+<br> <img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/Nivel%203.jpg" /> <br>
+* En la siguiente imagen se puede observar el nivel 3 pero con las secciones de las 3 capas distinguidas por un color. <img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/detalle-Nivel%203.jpg" /> <br>
 En esta sección, adicionalmente, también se expandió la base de datos. 
 <br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/Modelo%20ER.jpg" /> <br>
 Nivel 4, Código o Diagrama de Clases: En esta sección se expandieron los contenedores 
 ### Capa de presentacion:
-Vista:
+* Vista:
 <br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/Page-12.jpg" /> <br>
 ### Capa de logica de negocio:
 Controladores:
@@ -40,7 +40,7 @@ Servicios:
 * Servicio de habitacion:
 <br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/Page-10.jpg" /> <br>
 ### Capa de logica de acceso a datos:
-Repositorio:
+* Repositorio:
 <br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/page-7.jpg" /> <br>
 
 El nivel 4 también esta implementado de una manera no funciona alto nivel a través de código dentro de este repositorio 
