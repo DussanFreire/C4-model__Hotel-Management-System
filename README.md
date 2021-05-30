@@ -11,7 +11,7 @@ Como base del presente trabajo, se utilizo el modelo monolítico representado en
 * Al ser un sistema monolítico este diagrama solo contiene la aplicación web y la base de datos que sirve para almacenar la información del hotel. 
 <br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/Nivel-2.jpg" /> <br>
 ## Nivel 3, Contenedores: 
-En esta sección se amplió la aplicación web, se utilizo un modelo monolítico basado en 3 capas para representar esta sección. 
+* En esta sección se amplió la aplicación web, se utilizo un modelo monolítico basado en 3 capas para representar esta sección. 
 <br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/modelo%203%20capas.jpg" /> <br>
 * Diagrama:
 <br> <img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/Nivel%203.jpg" /> <br>
@@ -32,7 +32,7 @@ Controladores:
 <br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/Page-5.jpg" /> <br>
 Servicios:
 * Servicio de huespedes:
-<br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/Modelo%20ER.jpg" /> <br>
+<br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/Page-10.jpg" /> <br>
 * Servicio de hospedaje:
 <br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/Page-9.jpg" /> <br>
 * Servicio de habitacion:
