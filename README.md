@@ -9,7 +9,7 @@ Como base del presente trabajo, se utilizo el modelo monolítico representado en
 ## Nivel 2, Contenedores: 
 * Al ser un sistema monolítico este diagrama solo contiene la aplicación web y la base de datos que sirve para almacenar la información del hotel. 
 <br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/Nivel-2.jpg" /> <br>
-## Nivel 3, Contenedores: 
+## Nivel 3, Componentes: 
 * En esta sección se amplió la aplicación web, se utilizo un modelo monolítico basado en 3 capas para representar esta sección. 
 <br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/modelo%203%20capas.jpg" /> <br>
 * Diagrama:
