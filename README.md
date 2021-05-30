@@ -1,4 +1,4 @@
-# SistemaDeHotel
+# SistemaDeHotel 🛌🛎🛏
 
 En este proyecto se puede ver la representación de un sistema monolítico de un hotel a través del modelo c4 y clases no funcionales.
 
