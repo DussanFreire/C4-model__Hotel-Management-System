@@ -22,14 +22,14 @@ Como base del presente trabajo, se utilizo el modelo monolítico representado en
 * Vista:
 <br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/Page-12.jpg" /> <br>
 ### Capa de logica de negocio:
-Controladores:
+#### Controladores:
 * Controlador de huespedes: 
 <br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/Page-4.jpg" /> <br>
 * Controlador de hospedaje: 
 <br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/page-6.jpg" /> <br>
 * Controlador de habitacion:
 <br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/Page-5.jpg" /> <br>
-Servicios:
+#### Servicios:
  * En esta seccion se usaron interfaces para que se pueda usar el servicio siguiendo el "liskov principle" y ademas permitiendo hacer extenciones en vez de modificaciones 
  * Tambien en esta seccion se podrian usar patrone como el FactoryMethod
 * Servicio de huespedes:
