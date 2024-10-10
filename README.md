@@ -1,46 +1,47 @@
-# SistemaDeHotel 🛌🛎
-El siguiente sistema busca automatizar el registro de habitaciones, huéspedes y hospedajes de un hotel a través de un sistema monolítico. En este proyecto se puede ver la representación del sistema monolítico del sistema, a través del modelo C4 y clases no funcionales.
+# C4 model - Hotel Management System 🛌🛎
+This project aims to automate the management of room bookings, guest registrations, and stays for a hotel using a monolithic system. The system is represented through the C4 model and non-functional class diagrams, demonstrating the architecture and functionality.
 
-Como base del presente trabajo, se utilizo el modelo monolítico representado en la pagina https://c4model.com/ , en la sección “C4 and UML”
+The monolithic architecture is based on the C4 model, as outlined on the website https://c4model.com/ in the section “C4 and UML.”
 
-## Nivel 1, Contexto: 
-* Esta capa esta diseñada para dar un vistazo a muy alto nivel del sistema, es diagrama debe poder ser mostrado al cliente. 
+## Level 1: Context
+* This layer provides a very high-level view of the system, which can be presented to the client. 
 <br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/Nivel%201.jpg" /><br>
-## Nivel 2, Contenedores: 
-* Al ser un sistema monolítico este diagrama solo contiene la aplicación web y la base de datos que sirve para almacenar la información del hotel. 
+## Level 2: Containers
+* Since this is a monolithic system, the diagram contains only the web application and the database that stores the hotel’s information.
 <br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/Nivel-2.jpg" /> <br>
-## Nivel 3, Componentes: 
-* En esta sección se amplió la aplicación web, se utilizo un modelo monolítico basado en 3 capas para representar esta sección. 
+## Level 3: Components: 
+* This section expands on the web application using a 3-layer monolithic model to represent this part.
 <br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/modelo%203%20capas.jpg" /> <br>
-* Diagrama:
+* Diagram:
 <br> <img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/Nivel%203.jpg" /> <br>
-* En la siguiente imagen se puede observar el nivel 3 pero con las secciones de las 3 capas distinguidas por un color. <img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/detalle-Nivel%203.jpg" /> <br>
-* En esta sección, adicionalmente, también se expandió la base de datos. 
+* Below is Level 3 with the three layers distinguished by color: <img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/detalle-Nivel%203.jpg" /> <br>
+* Additionally, the database has been expanded in this section.
 <br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/Modelo%20ER.jpg" /> <br>
-## Nivel 4, Código o Diagrama de Clases: En esta sección se expandieron los contenedores 
-### Capa de presentacion:
-* Vista:
+## Level 4: Code and Class Diagrams
+In this section, the containers are further expanded. 
+### Presentation Layer
+* View
 <br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/Page-12.jpg" /> <br>
-### Capa de logica de negocio:
-#### Controladores:
-* Controlador de huespedes: 
+### Business Logic Layer
+#### Controllers:
+* Guest Controller: 
 <br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/Page-4.jpg" /> <br>
-* Controlador de hospedaje: 
+* Stay Controller: 
 <br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/page-6.jpg" /> <br>
-* Controlador de habitacion:
+* Room Controller:
 <br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/Page-5.jpg" /> <br>
-#### Servicios:
- * En esta seccion se usaron interfaces para que se pueda usar el servicio siguiendo el "liskov principle" y ademas permitiendo hacer extenciones en vez de modificaciones 
- * Tambien en esta seccion se podrian usar patrone como el FactoryMethod
-* Servicio de huespedes:
+#### Services:
+ * Interfaces were used in this section to follow the Liskov Substitution Principle, allowing for extensions rather than modifications.
+ * Additionally, patterns like the Factory Method could be applied here.
+* Guest Service:
 <br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/Page-10.jpg" /> <br>
-* Servicio de hospedaje:
+* Stay Service:
 <br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/Page-9.jpg" /> <br>
-* Servicio de habitacion:
+* Room Service:
 <br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/Page-10.jpg" /> <br>
-### Capa de logica de acceso a datos:
-* Repositorio:
-  * Para el repositorio fue utilizado un singleton para que la base de datos sea la misma para todos los componentes  
-  * Si es que hubiera que trabajar con una base de datos antigua se podria utilizar el patron "adapter", en este caso, como se esta implementado tambien la base de datos, no es necesario
+### Data Access Layer
+* Repository:
+  * A Singleton pattern was used for the repository to ensure that the database is shared across all components.
+  * If working with an older database, the Adapter pattern could be applied. In this case, however, as the database is being implemented from scratch, this is not necessary.
 <br><img src="https://github.com/DussanFreire/SistemaDeHotel/blob/main/Modelo%20c4/page-7.jpg" /> <br>
-* El nivel 4 también esta implementado de una manera no funciona alto nivel a través de código dentro de este repositorio 
+* Level 4 is also implemented through high-level, non-functional code available within this repository.
